@@ -9,6 +9,7 @@ License: MIT
 
 const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
+const keep_alive = require('./keep_alive.js');
 
 const fullURLRegex =
   /https?:\/\/(([^\s]*)\.)?amazon\.([a-z.]{2,5})(\/d\/([^\s]*)|\/([^\s]*)\/?(?:dp|o|gp|-)\/)(aw\/d\/|product\/)?(B[0-9A-Z]{9})([^\s]*)/gi;
